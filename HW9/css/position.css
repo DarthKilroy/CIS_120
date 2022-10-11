@@ -1,0 +1,44 @@
+#dino {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+}
+
+h2 {
+  position: absolute;
+  text-align: center;
+}
+
+#puggle {
+  position: relative;
+  margin: 10%;
+  padding-bottom: 25%;
+}
+
+#puggle_img {
+  position: absolute;
+  top: 10%;
+  right: 10%;
+}
+
+#birds {
+  position: relative;
+  padding-bottom: 25%;
+}
+
+#egret {
+  position: absolute;
+  top: 50%;
+  left: 20%;
+}
+
+#turkey {
+  position: absolute;
+  top: 50%;
+  right: 20%;
+}
+
+#dino2 {
+  position: fixed;
+  bottom: 0%;
+}

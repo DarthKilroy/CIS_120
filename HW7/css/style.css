@@ -1,0 +1,36 @@
+/*
+Style sheet practice
+
+In groups of 2 or 3 complete the following:
+
+1. Write the CSS for a class named footer with the following characteristics: a light-blue background color, Arial or sans-serif font, dark-blue text color, 10 pixels of padding, and a narrow, dashed border in a dark-blue color.
+
+2. Write the CSS for an id named notice that is configured with width set to 80% and centered. 
+
+3. Write the CSS to configure a class that will produce a headline with a dotted line under-neath it. Choose a color that you like for the text and dotted line.
+
+4. Write the CSS to configure an h1 selector with drop shadow text, a 50% transparent background color, and sans-serif font that is 4em in size.
+
+5. Write the CSS to configure an id named blurb with small, red, Arial font, a white back-ground, a width of 80%, and a drop shadow.
+
+6. Write the CSS to configure the body element with a linear gradient background that blends from black to medium blue.
+
+7. Write the CSS to configure an id named content with 70% opacity.
+
+8. Create a web page that incorporates your own content and uses all of the previous CSS rules. 
+*/
+
+.footer {
+  background-color: lightblue;
+  /* border-style: dashed;*/
+  border-color: darkblue;
+  border-width: thin;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration-line: underline;
+  text-decoration: dotted;
+}
+
+body {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(0, 0, 0, 1) 50%, rgba(4, 0, 255, 1) 100%);
+}
