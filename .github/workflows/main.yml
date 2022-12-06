@@ -1,0 +1,9 @@
+- name: Mirror to GitHub
+  # You may pin to the exact commit or the version.
+  # uses: bridgelightcloud/github-mirror-action@25fdb834fc99d78a7045fb9423c51b8b06c7bc4a
+  uses: bridgelightcloud/github-mirror-action@v2
+  with:
+    # URL of remote git repository
+    origin: http://git.sturtz.io/darthkilroy/CIS_120.git
+    # set this to the value of secrets.GITHUB_TOKEN
+    GITHUB_TOKEN: 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
